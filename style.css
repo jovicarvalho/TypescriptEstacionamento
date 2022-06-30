@@ -1,0 +1,67 @@
+
+
+body{
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-items: flex-start;
+
+  
+}
+
+
+h1{
+  display: flex;
+  background-color: #283a3e;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:#283a3e;
+  border: solid;
+  border-color:black
+}
+
+input#placa{
+  margin-left: 10%;
+  margin-bottom: 50px;
+  height: 30px;
+  width: 200px;
+  border:solid;
+}
+
+input#nome{
+  height: 30px;
+  width: 200px;
+
+}
+
+#cadastrar {
+  font-size: 30px;
+  width: 200px;
+  margin-left: 20%;
+  background-color: #283a3e;
+  border-radius: 30px;
+  color:white;
+}
+
+table{
+  background-color: black;
+  border-color: #283a3e ;
+  border: solid;
+}
+
+tr{
+  border:solid;
+  border-color:#283a3e;
+}
+
+
+.delete{
+  background-color: #283a3e;
+  color: white;
+  font-size: 20px;
+}
+

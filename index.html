@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Estacionamento </title>
+  <link href="./style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <header>
+    
+    <h1> <img class="logo" src="/imagem/logo.jpg" height="50px" width="50px" >Zathura - Sistema de Estacionamento </h1>
+  </header>
+
+    <div class = "dados" >
+      <p> Digite o Nome  do Veículo aqui e a placa na próxima área:</p>
+      <input 
+      type="text"
+      id = "nome" 
+      placeholder="Digite o nome do veículo: "
+      autocomplete="off" 
+      font-size = 20px
+      />
+      <input 
+      type="text"
+      id = "placa" 
+      placeholder="Digite a placa do veículo: " 
+      autocomplete="off" 
+      /> 
+      
+      <button id="cadastrar"> Cadastrar </button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Placa</th>
+          <th>Entrada</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="patio"></tbody>
+    </table>
+  <script src="./script.js" ></script>
+</body>
+
+</html>
